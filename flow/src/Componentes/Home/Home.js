@@ -5,34 +5,6 @@ import Logo from '../../Static/img/logo.png';
 import Resultados from '../Resultados/Resultados';
 
 const Home = () => {
-  // const apiKey = 'f56f24967aaf51182d1d4df628297c6d';
-  // const [inputCity, setInputCity] = useState('');
-  // const [data, setData] = useState({});
-
-  // onst getWetherDetails = cityName => {
-  //   if (!cityName) return;
-  //   const apiURL =
-  //     'https://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=' + apiKey;
-  //   axios
-  //     .get(apiURL)
-  //     .then(res => {
-  //       console.log('response', res.data);
-  //       setData(res.data);
-  //     })
-  //     .catch(err => {
-  //       console.log('err', err);
-  //     });
-  // };
-
-  // const handleChangeInput = e => {
-  //   console.log('value', e.target.value);
-  //   setInputCity(e.target.value);
-  // };
-
-  // const handleSearch = () => {
-  //   getWetherDetails(inputCity);
-  // };
-
   return (
     <div className="LP-Home ">
       <div className="LI-Home">

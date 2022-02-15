@@ -24,6 +24,10 @@ La compilación se minimiza y los nombres de archivo incluyen los hashes.
 ¡Tu aplicación está lista para ser implementada!
 cs/advanced-configuration)
 
-### `npm run build`
+### `Datos de repositorio y deploy`
 
 Flow challenge - Mestre juan ignacio
+
+Repositorio: https://github.com/NachoMestre91/flow.git
+
+Deploy repositorio: https://elegant-kirch-15e19f.netlify.app/

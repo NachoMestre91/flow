@@ -2,13 +2,13 @@
   width: 100%;
   height: auto;
 }
-.CI-Tarjeta-clima {
+.CI-Tarjeta-clima-dias {
   display: grid;
-  grid-template-columns: 20px 1fr 20px;
-  grid-template-rows: 20px 1fr 20px;
+  grid-template-columns: 20px 100px 20px;
+  grid-template-rows: 50px auto 50px;
   gap: 10px;
 }
-.I-Tarjeta {
+.I-Tarjeta-dias {
   grid-column: 2/3;
   grid-row: 2/3;
   display: flex;
@@ -16,6 +16,7 @@
   align-items: center;
   place-content: center;
   color: white;
+  padding: 10px;
 }
 .icono-nube {
   width: 50px;
@@ -27,4 +28,17 @@
 }
 .Clima {
   font-size: 1.2rem;
+}
+.dia {
+  font-size: 1rem;
+  color: #5cebc1;
+}
+.Temperatura-dia {
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-width: 768px) and (orientation: portrait) {
+  .CI-Tarjeta-clima-dias {
+    grid-template-columns: 20px 1fr 20px;
+  }
 }
